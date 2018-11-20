@@ -1,0 +1,88 @@
+body{
+    background-color: seashell; 
+}
+
+h1{
+    align-content: center;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+#instruction{
+    background-color: lightseagreen;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.score{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    overflow:hidden;
+    clear: both;
+}
+
+#randomnum,
+#stats{
+    float: left;
+}
+
+#randomnum{
+    background-color: mediumaquamarine;
+    width: 25%;
+    height: 100px;
+    margin-right:20px; 
+    padding-left: 10px;
+}
+
+#stats{
+    background-color: orange;
+    width: 15%;
+    height: 100px;
+    padding-left: 10px;
+}
+
+span{
+    width: 50%;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.img{
+    clear: both;
+    margin-bottom: 10px;
+}
+
+img{
+    width:100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#summary{
+    background-color: skyblue;
+    width: 25%;
+    font-size: 20px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 10px;
+}
+
+#myscore{
+    background-color: skyblue;
+    width: 25%;
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <h1>
+                CRYSTALS COLLECTOR! 
+            </h1>
+            <button>
+                Instructions
+            </button>
+            <section id="instruction">
+                <p>
+                    You will be given a number at the start of the game.
+                </p>
+                <p>
+                    There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                </p>
+                <p>
+                    You win by matching your total score to random number, you lose if you total number goes above the random number.
+                </p>
+                <p>
+                    The value of each crystal is hiden from you until you click on it.
+                </p>
+                <p>
+                    Each time the game starts, the game will change the values of each crystal.
+                </p>
+            </section>  
+
+        </div>  
+        <div class="score">
+            <section id="randomnum" value = "0">
+                <h2 id="compscore"></h2>
+            </section>
+            <section id="stats">
+                <br>
+                <span><strong>Wins: </strong> </span>
+                <span id="win">
+                    0
+                </span>
+                <br>
+                <br>
+                <span> <strong>Losses: </strong></span>
+                <span id="loss">
+                    0
+                </span>
+            </section>
+
+        </div>
+        <div class="img">
+            <img id="1" src="assets/images/Blue_crystal_new.jpg" alt="Blue_crystal_new">
+            <img id="2" src="assets/images/DiamondBlue.png" alt="DiamondBlue">
+            <img id="3" src="assets/images/green_crystal.png" alt="green_crystal">
+            <img id="4" src="assets/images/orange_crystal.jpg" alt="orange_crystal">
+
+        </div>
+        <div>
+            <section id="summary">
+                Your total score is:
+            </section>
+            <section id="myscore">
+                0
+            </section>
+
+        </div>
+
+    </div>
+</body>
+</html> 
